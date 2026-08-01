@@ -1,8 +1,25 @@
 aid: proximie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proximie.png
 name: Proximie
-description: 'Proximie is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Proximie is a health-tech company building a cloud platform it describes as the operating
+  system for intelligent operating rooms, connecting surgical teams, medical devices, and data for remote
+  telementoring, telesurgery, session recording, and AI-powered surgical insights across 500+ facilities
+  in 50 countries. For developers, Proximie ships a pre-release C++ SDK (media streaming and session
+  management, with an internal REST layer) and runs a Development Partners program that lets OEMs and
+  medtech companies embed real-time connectivity, secure data routing, and white-label collaboration
+  into their own devices. Proximie also open-sources WebRTC/Janus tooling (jarust, janus-mobile-sdk).
+  Backed by SoftBank Vision Fund.'
 url: https://raw.githubusercontent.com/api-evangelist/proximie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health Tech
+- Surgery
+- Telemedicine
+- Medical Devices
+- WebRTC
+- SDK
+- Media Streaming
 apis: []
+common:
+- type: Website
+  url: https://www.proximie.com
+- type: DeveloperPortal
+  url: https://proximie.github.io/sdk-docs
+- type: Documentation
+  url: https://proximie.github.io/sdk-docs
+- type: GettingStarted
+  url: https://proximie.github.io/sdk-docs
+- type: GitHubOrganization
+  url: https://github.com/Proximie
+- type: Compliance
+  url: https://www.proximie.com/development-partners
+- type: Packages
+  url: packages/proximie-packages.yml
+- type: SDKs
+  url: packages/proximie-packages.yml
+- type: Conformance
+  url: conformance/proximie-conformance.yml
+- type: Lifecycle
+  url: lifecycle/proximie-lifecycle.yml
+- type: LLMsTxt
+  url: llms/proximie-llms.txt
+- type: DomainSecurity
+  url: security/proximie-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

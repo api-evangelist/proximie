@@ -1,0 +1,27 @@
+# Proximie
+
+> Proximie is a health-tech company building a cloud platform it describes as the operating system for intelligent operating rooms — connecting surgical teams, medical devices, and data for remote telementoring, telesurgery, session recording, and AI-powered surgical insights across 500+ facilities in 50 countries. For developers, Proximie ships a pre-release C++ SDK and runs a Development Partners program for OEMs and medtech companies. Backed by SoftBank Vision Fund.
+
+## Developer
+
+- [SDK Documentation (Developer Guide)](https://proximie.github.io/sdk-docs): Proximie SDK v0.17.0 (C++) — media streaming, session management, and a REST layer.
+- [SDK Reference](https://proximie.github.io/sdk-docs/sdk-ref.html): Namespaces PxCore, PxUtility, PxRestApi (ProximieServices), PxMedia.
+- [Development Partners Program](https://www.proximie.com/development-partners): SDK access for OEMs/medtech — real-time connectivity, secure data routing, white-label collaboration.
+- [GitHub Organization](https://github.com/Proximie): First-party open-source WebRTC/Janus tooling.
+
+## Packages
+
+- [jarust](https://crates.io/crates/jarust): Rust adapter for the Janus WebRTC server (first-party, v1.8.2).
+- [janus-mobile-sdk](https://github.com/Proximie/janus-mobile-sdk): Kotlin mobile SDK for Jarust.
+
+## Company
+
+- [Website](https://www.proximie.com): Company overview and surgical platform solutions.
+- Compliance: HIPAA, GDPR, and ISO certifications for secure healthcare deployments (see Development Partners page).
+
+## Artifacts
+
+- [Packages](https://raw.githubusercontent.com/api-evangelist/proximie/refs/heads/main/packages/proximie-packages.yml)
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/proximie/refs/heads/main/conformance/proximie-conformance.yml)
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/proximie/refs/heads/main/lifecycle/proximie-lifecycle.yml)
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/proximie/refs/heads/main/security/proximie-domain-security.yml)

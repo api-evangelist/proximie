@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://proximie.github.io/sdk-docs
+notes: >-
+  The Proximie SDK is documented as pre-release and under very active development. No public deprecation
+  policy, SLA, or status page was found. Versioning follows the SDK semantic version.
+versioning:
+  scheme: semver
+  current: 0.17.0
+  docs: https://proximie.github.io/sdk-docs
+  stability: pre-release
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+status_page: null
+deprecated_operations: []

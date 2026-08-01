@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: searched
+source: https://proximie.github.io/sdk-docs + https://github.com/Proximie
+notes: >-
+  Proximie's marquee client library is a pre-release C++ SDK distributed through its Development Partners
+  program (not published to a public package registry). Proximie also authors open-source WebRTC/Janus
+  tooling under its GitHub org; jarust (Rust) and janus-mobile-sdk (Kotlin) are first-party. janode is a
+  fork of a third-party (Meetecho) Janus adapter and is not marked official.
+packages:
+- language: cpp
+  registry: none
+  name: Proximie SDK
+  version: 0.17.0
+  url: https://proximie.github.io/sdk-docs
+  install: Distributed via the Proximie Development Partners program (not public registry)
+  official: true
+  status: pre-release
+  description: >-
+    C++ SDK for interacting with Proximie services — media streaming (PxMedia), session management,
+    and a REST layer (PxRestApi / ProximieServices).
+- language: rust
+  registry: crates.io
+  name: jarust
+  version: 1.8.2
+  url: https://crates.io/crates/jarust
+  install: cargo add jarust
+  official: true
+  repo: https://github.com/Proximie/jarust
+  description: A Rust adapter for the Janus WebRTC server.
+- language: kotlin
+  registry: github
+  name: janus-mobile-sdk
+  url: https://github.com/Proximie/janus-mobile-sdk
+  install: See repository (Kotlin Multiplatform bindings over jarust)
+  official: true
+  description: Mobile SDK for Jarust (Janus WebRTC).

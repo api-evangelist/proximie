@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.proximie.com/development-partners
+notes: >-
+  Compliance posture claimed on Proximie's Development Partners page for its healthcare surgical platform.
+  No public trust center or certification portal was found; claims are asserted on the marketing/partner
+  page rather than an audited certifications listing.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: Development Partners page states the platform supports HIPAA requirements for secure healthcare deployments.
+- id: gdpr
+  conforms: true
+  evidence: Development Partners page states GDPR support.
+- id: iso-27001
+  conforms: true
+  evidence: Development Partners page cites ISO certifications for secure healthcare deployments.
+- id: oauth2
+  conforms: false
+  evidence: No public OpenAPI or OAuth documentation; SDK handles auth internally.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public REST API/OpenAPI to assert error format.
